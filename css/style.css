@@ -46,26 +46,21 @@ body {
 }
 #sign-in-button {
   position: absolute;
-  right: 30px;
-  top: 10px;
-  margin-top: 3px;
-  background-color: #1a73e8; 
+  right: 55px;
+  top: 8px;
+  margin-top:2px;
+  background-color:transparent; 
   border:1px solid transparent; 
-  color:white; 
-  padding:4px 14px; 
+
+  padding:4px 1px; 
   border-radius:2px; 
   cursor: pointer; 
-  width: 75px; 
-  height: 30px;
+  width: 35px; 
+  height: 35px;
 }
 
 
-#sign-in-button:hover {
-  background-color: #3180e7 ;
-  -webkit-box-shadow: 0px 1px 1px 1px rgba(49,128,231,0.44);
-  -moz-box-shadow: 0px 1px 1px 1px rgba(49,128,231,0.44);
-  box-shadow: 0px 1px 1px 1px rgba(49,128,231,0.44);
-}
+
 
 #logo {
   margin-top: 115px;
@@ -79,13 +74,14 @@ body {
 #search-bar {
   margin-top: 25px;
   width: 38%;
-  height: 35px;
+  height: 36px;
   padding: 5px;
-  border-radius: 25px;
-  border: 1px solid #dfe1e5;
+  border-radius: 14px;
+  border: 1px solid #f2f2f2;
   -webkit-box-shadow: -1px 1px 2px 1px rgba(209,207,209,1);
   -moz-box-shadow: -1px 1px 2px 1px rgba(209,207,209,1);
   box-shadow: -1px 1px 2px 1px rgba(209,207,209,1);
+ 
 }
 
 
@@ -129,6 +125,7 @@ body {
   height: 36px;
   min-width: 54px;
   cursor: pointer;
+  font-family: Arial;
 }
 
 
